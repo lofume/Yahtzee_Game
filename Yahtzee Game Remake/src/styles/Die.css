@@ -1,0 +1,12 @@
+.die {
+  border: 0;
+  padding: 0;
+  margin: 10px;
+  color: green;
+  font-size: 4.3rem;
+  transition: all .2s;
+}
+
+.die.locked {
+  opacity: 0.6;
+}

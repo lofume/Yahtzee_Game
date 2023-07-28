@@ -1,0 +1,34 @@
+.score-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 6px;
+  border-bottom: 2px solid plum;
+  cursor: pointer;
+}
+
+.score-item:hover {
+  background-color: #f2fdff;
+}
+
+.score-item:disabled {
+  color: #000;
+  background-color: #f7f7f7;
+  cursor: default;
+}
+
+.score-item:disabled:hover {
+  background-color: none;
+}
+
+.score-item:disabled .score-item--name {
+  text-decoration: line-through;
+}
+
+.score-item p {
+  margin: 0;
+}

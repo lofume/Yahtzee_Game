@@ -1,0 +1,38 @@
+.scorecard {
+  padding: 0;
+}
+
+.scorecard__header {
+  display: flex;
+  justify-content: center;
+}
+
+.scorecard__header h2 {
+  font-weight: 50;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-bottom: 6px solid pink;
+}
+
+.scorecard__bonus-score {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+  border-bottom: 2px solid plum;
+  cursor: default;
+}
+
+.scorecard__bonus-score p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  .scorecard {
+    padding: 0;
+  }
+}

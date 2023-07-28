@@ -1,0 +1,43 @@
+.dices {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.dice__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dice__roll-button {
+  position: absolute;
+  top: 65px;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 10px 100px;
+  margin-top: 3rem;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.dice__roll-button:disabled {
+  color: white;
+  background-color: #cfa0ff;
+  cursor: not-allowed;
+}
+
+.safariHack {
+  opacity: 2;
+}
+
+@media only screen and (max-width: 375px) {
+  .dice__container {
+    width: 100%
+  }
+}
